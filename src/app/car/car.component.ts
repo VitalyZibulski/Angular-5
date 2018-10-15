@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-car',
-  templateUrl: './car.component.html',
+  template: `
+    <h2>Single car</h2>
+  `,
   styleUrls: ['./car.component.css']
 })
 export class CarComponent implements OnInit {
